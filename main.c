@@ -7,17 +7,17 @@
   somaimpar = 0;
   somapar = 0;
   cont = 0;
-  for(i = 0; i < 4; i++){      /* percorre as linhas da Matriz */
+  for(i = 0; i < 4; i++){      
     for(j = 0; j < 4; j++){
       printf("\nDigite um numero inteiro: ");
       scanf("%f", &A[i][j]);
     }
   }
-  for(i = 0; i < 4; i++){      /* percorre as linhas da Matriz */
-    for(j = 0; j < 4; j++){      /* percorre as colunas da Matriz */
-      if (j % 2 == 0) {     /* colunas pares */
+  for(i = 0; i < 4; i++){      
+    for(j = 0; j < 4; j++){      
+      if (j % 2 == 0) {     
          somapar= somapar + A[i][j];
-         cont = cont + 1;   /* conta o número de elementos */
+         cont = cont + 1;   
       }
       else {
         somaimpar = somaimpar + A[i][j];
